@@ -2,7 +2,7 @@
   "team":[{
     "name": "Ron",
     "id": "1",
-    "title": "Leader/Founder",
+    "title": "Leader \/ Founder",
     "headshot": "ron.jpg",
     "character": "cf.png",
     "blurb": "Interests: Star Wars, tattoos, taco Tuesday, Bioshock, Chinese food, Superfight, Splatoon, Harvey Dent… can we trust him?"
@@ -16,7 +16,7 @@
   }, {
     "name": "Maggie",
     "id": "2",
-    "title": "Marketing Manager | Artist | Social Media Manager",
+    "title": "Marketing Manager \/ Artist",
     "headshot": "maggie.jpg",
     "character": "co.png",
     "blurb": "Pug Lover, Cat Owner. Interests: Greasy cheeseburgers, cities at night, studio ghibli. Goals: Own two pugs, sell my art, find the blacksmith."

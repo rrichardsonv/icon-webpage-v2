@@ -5,7 +5,7 @@ import ProfileCard from './ProfileCard'
 class About extends Component {
   render () {
     return (
-      <div className='container main-content mg-t-1 about'>
+      <div className='container-flex main-content about'>
         {this.props.team.map((member) => {
           return (
             <ProfileCard key={member.id} member={member} />

@@ -12,7 +12,6 @@ class Events extends Component {
     )
   }
 }
-
 const { arrayOf, object } = Proptypes
 Events.propTypes = {
   cons: arrayOf(object)

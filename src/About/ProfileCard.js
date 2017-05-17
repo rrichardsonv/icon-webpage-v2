@@ -5,7 +5,7 @@ class ProfileCard extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      detailsVisibility: 'hidden'
+      detailsVisibility: 'screen-hidden'
     }
     this.revealBlurb = this.revealBlurb.bind(this)
     this.hideBlurb = this.hideBlurb.bind(this)
@@ -14,7 +14,7 @@ class ProfileCard extends Component {
     this.setState({detailsVisibility: ''})
   }
   hideBlurb () {
-    this.setState({detailsVisibility: 'hidden'})
+    this.setState({detailsVisibility: 'screen-hidden'})
   }
   render () {
     const { name, title, headshot, blurb, character } = this.props.member
@@ -24,7 +24,7 @@ class ProfileCard extends Component {
         onMouseOut={this.hideBlurb}
         className='item item-responsive'
       >
-        <div className={`top-details profile-wrapper ${this.state.detailsVisibility}`}>
+        <div className={`top-details ${this.state.detailsVisibility} profile-wrapper`}>
           <h3>{name}</h3>
           <strong>
             <p>{title}</p>
@@ -37,7 +37,7 @@ class ProfileCard extends Component {
           />
         </div>
         <div
-          className={`container-fluid responsive-blurb bottom-details profile-wrapper ${this.state.detailsVisibility}`}
+          className={`container-fluid responsive-blurb bottom-details ${this.state.detailsVisibility} profile-wrapper`}
         >
           <div className='row'>
             <img
