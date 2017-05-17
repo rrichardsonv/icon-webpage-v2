@@ -1,0 +1,100 @@
+{
+  "team":[{
+    "name": "Ron",
+    "id": "1",
+    "title": "Leader/Founder",
+    "headshot": "ron.jpg",
+    "character": "cf.png",
+    "blurb": "Interests: Star Wars, tattoos, taco Tuesday, Bioshock, Chinese food, Superfight, Splatoon, Harvey Dent… can we trust him?"
+  }, {
+    "name": "Gabe",
+    "id": "3",
+    "title": "Games Coordinator",
+    "headshot": "gabe.jpg",
+    "character": "tl.png",
+    "blurb": "Professional sushi eater, champion sleeper, 9th Kanto gym leader, JRPG Novice. Interests: Traveling through spacetime, reading manga, and watching anime"
+  }, {
+    "name": "Maggie",
+    "id": "2",
+    "title": "Marketing Manager | Artist | Social Media Manager",
+    "headshot": "maggie.jpg",
+    "character": "co.png",
+    "blurb": "Pug Lover, Cat Owner. Interests: Greasy cheeseburgers, cities at night, studio ghibli. Goals: Own two pugs, sell my art, find the blacksmith."
+  }],
+  "cons": [{
+    "id": "AAA",
+    "title": "A-Con",
+    "startDate": "May 25, 2017",
+    "endDate": "May 27, 2017",
+    "tickets": "https://wizardworldchicago.frontgatetickets.com/event/er6j1t2vlb050gad",
+    "location": "Rosemont Convention Center",
+    "url": "http://wizardworld.com",
+    "sponsors":[{
+      "name": "Google",
+      "url": "https://google.com",
+      "logo": "http://www.famouslogos.org/wp-content/uploads/2009/04/googfav.png"
+    }, {
+      "name": "Reddit",
+      "url": "https://reddit.com",
+      "logo": "https://image.freepik.com/free-icon/reddit-logo_318-67806.jpg"
+    }]
+  }, {
+    "id": "BBB",
+    "title": "B2E2",
+    "startDate": "July 25, 2017",
+    "endDate": "July 27, 2017",
+    "tickets": "http://www.c2e2.com/Tickets/Buy-Tickets/",
+    "location": "McCormick Place",
+    "url": "http://www.c2e2.com",
+    "sponsors":[{
+      "name": "Dole",
+      "url": "http://www.dole.com",
+      "logo": "http://www.dole.com/sites/dole_com/images/logo-dole-2x.png"
+    }, {
+      "name": "Chiquita Bananas",
+      "url": "http://www.chiquitabananas.com/",
+      "logo": "http://www.chiquitabananas.com/img/chiquita-logo.png"
+    }]
+  }],
+  "rules":[{
+    "category": "general",
+    "name": "3-Stock",
+    "icon": "//placehold.it/47x75",
+    "text": "yadda yadda yadda yaddayadda yadda. yadda yadda yadda yadda yadda yadda."
+  }, {
+    "category": "general",
+    "name": "Double Elimination",
+    "icon": "//placehold.it/47x75",
+    "text": "yadda yadda yadda yaddayadda yadda. yadda yadda yadda yadda yadda yadda."
+  }, {
+    "category": "doubles",
+    "name": "Stage Striking",
+    "icon": "//placehold.it/47x75",
+    "text": "yadda yadda yadda yaddayadda yadda. yadda yadda yadda yadda yadda yadda."
+  }, {
+    "category": "doubles",
+    "name": "Counter-picking",
+    "icon": "//placehold.it/47x75",
+    "text": "yadda yadda yadda yaddayadda yadda. yadda yadda yadda yadda yadda yadda."
+  }, {
+    "category": "doubles",
+    "name": "Best of 3",
+    "icon": "//placehold.it/47x75",
+    "text": "yadda yadda yadda yaddayadda yadda. yadda yadda yadda yadda yadda yadda."
+  }, {
+    "category": "singles",
+    "name": "Stage Striking",
+    "icon": "//placehold.it/47x75",
+    "text": "yadda yadda yadda yaddayadda yadda. yadda yadda yadda yadda yadda yadda."
+  }, {
+    "category": "singles",
+    "name": "Counter-picking",
+    "icon": "//placehold.it/47x75",
+    "text": "yadda yadda yadda yaddayadda yadda. yadda yadda yadda yadda yadda yadda."
+  }, {
+    "category": "singles",
+    "name": "Best of 3",
+    "icon": "//placehold.it/47x75",
+    "text": "yadda yadda yadda yaddayadda yadda. yadda yadda yadda yadda yadda yadda."      
+  }]
+}
