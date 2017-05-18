@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 class EventCard extends Component {
   render () {
-    const { title, startdate, enddate, tickets, url } = this.props.con
+    const { title, startDate, endDate, tickets, url } = this.props
     return (
       <div className='item item-responsive'>
         <div className='inner-wrapper'>
@@ -12,7 +12,7 @@ class EventCard extends Component {
         <div className='overlay' />
         <div className='overview'>
           <h3>{title}</h3>
-          <p>{`${startdate} -- ${enddate}`}</p>
+          <p>{`${startDate} -- ${endDate}`}</p>
         </div>
         <div className='details-wrapper'>
           <div className='btn-group-vertical inner-wrapper'>
@@ -25,19 +25,16 @@ class EventCard extends Component {
     )
   }
 }
-const { shape, string, arrayOf, object } = PropTypes
+const { string, arrayOf, object } = PropTypes
 
 EventCard.propTypes = {
-    con: shape({
-      id: string,
-      title: string,
-      start_date: string,
-      end_date: string,
-      tickets: string,
-      location: string,
-      url: string,
-      sponsors: arrayOf(object)
-  })
+  title: string,
+  start_date: string,
+  end_date: string,
+  tickets: string,
+  location: string,
+  url: string,
+  sponsors: arrayOf(object)
 }
 
 export default EventCard

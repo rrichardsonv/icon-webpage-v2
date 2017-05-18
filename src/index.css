@@ -9,6 +9,7 @@ body {
   margin-right: 5px;
   margin-left: 5px;
 }
+/*About page*/
 .about .item{
   margin-top: 10px;
 }
@@ -46,6 +47,63 @@ body {
   height: auto;
   bottom: 0;
 }
+/*Events page*/
+.event-card-bg{
+  display:inline;
+  width: 100%;
+  height: auto;
+  max-width:100%;
+  vertical-align: middle;
+  border: 0;
+}
+.inner-wrapper{
+  display: block;
+}
+.overlay{
+  position: relative;
+  display: block;
+  position: absolute;
+  z-index: 12;
+  top: 0;
+  bottom: 0;
+  padding: 15px;
+  left: 6px;
+  right: 6px;
+  background: linear-gradient(transparent, white);
+}
+.overview{
+  background-color: white;
+  color: red;
+  opacity: 0.6;
+  display: block;
+  position: absolute;
+  z-index: 12;
+  bottom: 0;
+  padding: 0px 15px 10px;
+  vertical-align: baseline;
+  left: 6px;
+  right: 6px;
+}
+.details-wrapper{
+  opacity: 0;
+  color:#2E2E2E;
+  z-index: 12;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 6px;
+  right: 6px;
+  padding: 15px 20px 25px 20px;
+}
+.details-wrapper:hover{
+  opacity: 0.9;
+}
+
+
 @media only screen and (max-width: 560px){
   .bottom-details{
     display: none;

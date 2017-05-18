@@ -7,7 +7,7 @@ class Events extends Component {
     const cons = this.props.cons
     return (
       <div className='container mg-t-1 main-content'>
-        {cons.map((con) => <EventCard key={con.id} con={con} />)}
+        {cons.map((con) => <EventCard key={con.id} {...con} />)}
       </div>
     )
   }
