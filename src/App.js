@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Route } from 'react-router'
+import Footer from './GlobalComponents/Footer'
+import Header from './GlobalComponents/Header'
 import Home from './Home/index'
 import About from './About/index'
 import Events from './Events/index'
@@ -13,8 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <Header />
         </div>
         <Route exact path='/' component={Home} />
         <Route
@@ -41,6 +42,7 @@ class App extends Component {
             )
           }}
         />
+        <Footer />
       </div>
     );
   }

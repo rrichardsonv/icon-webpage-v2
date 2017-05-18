@@ -3,3 +3,169 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.item{
+  position:relative;
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+/*About page*/
+.about .item{
+  margin-top: 10px;
+}
+.about .inner-wrapper img{
+  border-radius: 5px;
+  border: 5px solid #f4f4f4;
+}
+
+.profile-wrapper{
+  padding-left: 5px;
+  padding-top: 10px;
+  background-color: white;
+  display: block;
+  z-index: 10;
+  left: 6px;
+  right: 6px;
+  vertical-align: baseline;
+  position: absolute;
+}
+.top-details{
+  border-bottom-right-radius: 5px;
+  padding-bottom: 5px;
+  min-width: 25%;
+  max-width: 33%;
+  top: 0;
+  opacity: 0.9;
+}
+.top-details h3{
+  font-size: 18px;
+}
+
+.bottom-details{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  height: auto;
+  bottom: 0;
+}
+/*Events page*/
+.event-card-bg{
+  display:inline;
+  width: 100%;
+  height: auto;
+  max-width:100%;
+  vertical-align: middle;
+  border: 0;
+}
+.inner-wrapper{
+  display: block;
+}
+.overlay{
+  position: relative;
+  display: block;
+  position: absolute;
+  z-index: 12;
+  top: 0;
+  bottom: 0;
+  padding: 15px;
+  left: 6px;
+  right: 6px;
+  background: linear-gradient(transparent, white);
+}
+.overview{
+  background-color: white;
+  color: red;
+  opacity: 0.6;
+  display: block;
+  position: absolute;
+  z-index: 12;
+  bottom: 0;
+  padding: 0px 15px 10px;
+  vertical-align: baseline;
+  left: 6px;
+  right: 6px;
+}
+.details-wrapper{
+  opacity: 0;
+  color:#2E2E2E;
+  z-index: 12;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 6px;
+  right: 6px;
+  padding: 15px 20px 25px 20px;
+}
+.details-wrapper:hover{
+  opacity: 0.9;
+}
+
+
+@media only screen and (max-width: 560px){
+  .bottom-details{
+    display: none;
+  }
+  .item-responsive{
+    width: 96%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .rules-column{
+    width: 95%;
+  }
+  .about .item-responsive{
+    width: 95%;
+  } 
+  .main-content {
+    padding-top: 5.5em;
+  }
+  .responsive-blurb{
+
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 560px) {
+  .screen-hidden{
+    display: none;
+  }
+  .main-content {
+    padding-top: 5.5em;
+  }
+
+  .item-responsive{
+    width: 48%;
+  }
+  .rules-column{
+    width: 44%;
+  }
+  .about .item-responsive{
+    width: 44%;
+  } 
+  .responsive-blurb{
+    
+  }
+    /*fix button group from justified to stack switch in events*/
+}
+
+@media only screen and (min-width: 768px) {
+  .screen-hidden{
+    display: none;
+  }
+
+    .main-content {
+      padding-top: 8em;
+    }
+
+    .item-responsive{
+      width: 33.3333333333%;
+    }
+    .rules-column{
+      width: 31%;
+    }
+    .about .item-responsive{
+      width: 31%;
+    }     
+}
